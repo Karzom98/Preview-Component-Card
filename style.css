@@ -130,10 +130,11 @@ button{
 }
 @media screen and (max-width : 480px){
     .Container-main{
-       
+        height:auto;
         flex-direction: column;
         background-color: hsl(0, 0%, 95%);
-        height: 100vh;
+        
+        
        
 
       
@@ -142,6 +143,7 @@ button{
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0px;
+        
 
       
     }
